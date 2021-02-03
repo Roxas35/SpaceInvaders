@@ -1,0 +1,46 @@
+.grid{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+}
+
+.grid div{
+  width: 20px;
+  height: 20px;
+}
+
+.shooter{
+  background-image: url('shuttle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.invader{
+  background-image: url('cloneball.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.boom{
+  background-image: url('explode.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.laser{
+  background: linear-gradient(#ff0000, #fff);
+  border-radius: 30%;
+  transform: scale(0.07, 0.7);
+}
